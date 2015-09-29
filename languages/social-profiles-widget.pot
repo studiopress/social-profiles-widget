@@ -1,0 +1,189 @@
+# Copyright (C) 2015 Nathan Rice
+# This file is distributed under the GNU General Public License v2.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Profiles Widget 1.2.2\n"
+"Report-Msgid-Bugs-To: StudioPress <translations@studiopress.com>\n"
+"POT-Creation-Date: 2015-09-29 22:34:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: StudioPress <translations@studiopress.com>\n"
+"Language-Team: English <translations@studiopress.com>\n"
+"X-Generator: grunt-wp-i18n 0.4.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+#: plugin.php:33
+msgid "Displays Social Profile links as icons"
+msgstr ""
+
+#: plugin.php:34
+msgid "Social Profiles"
+msgstr ""
+
+#: plugin.php:45
+msgid "RSS/Feedburner URL"
+msgstr ""
+
+#: plugin.php:48
+msgid "RSS"
+msgstr ""
+
+#: plugin.php:51
+msgid "Twitter URL"
+msgstr ""
+
+#: plugin.php:54
+msgid "Twitter"
+msgstr ""
+
+#: plugin.php:57
+msgid "Facebook URL"
+msgstr ""
+
+#: plugin.php:60
+msgid "Facebook"
+msgstr ""
+
+#: plugin.php:63
+msgid "Linkedin URL"
+msgstr ""
+
+#: plugin.php:66
+msgid "Linkedin"
+msgstr ""
+
+#: plugin.php:69
+msgid "YouTube URL"
+msgstr ""
+
+#: plugin.php:72
+msgid "Youtube"
+msgstr ""
+
+#: plugin.php:75
+msgid "Flickr URL"
+msgstr ""
+
+#: plugin.php:78
+msgid "Flickr"
+msgstr ""
+
+#: plugin.php:81
+msgid "Delicious URL"
+msgstr ""
+
+#: plugin.php:84
+msgid "Delicious"
+msgstr ""
+
+#: plugin.php:87
+msgid "StumbleUpon URL"
+msgstr ""
+
+#: plugin.php:90
+msgid "StumbleUpon"
+msgstr ""
+
+#: plugin.php:93
+msgid "Digg URL"
+msgstr ""
+
+#: plugin.php:96
+msgid "Digg"
+msgstr ""
+
+#: plugin.php:99
+msgid "MySpace URL"
+msgstr ""
+
+#: plugin.php:102
+msgid "MySpace"
+msgstr ""
+
+#: plugin.php:150
+msgid "Title"
+msgstr ""
+
+#: plugin.php:154
+msgid "Open links in new window?"
+msgstr ""
+
+#: plugin.php:157
+msgid "Icon Set"
+msgstr ""
+
+#: plugin.php:159
+msgid "Default"
+msgstr ""
+
+#: plugin.php:160
+msgid "Circles"
+msgstr ""
+
+#: plugin.php:161
+msgid "Denim"
+msgstr ""
+
+#: plugin.php:162
+msgid "Inside"
+msgstr ""
+
+#: plugin.php:163
+msgid "Sketch"
+msgstr ""
+
+#: plugin.php:168
+msgid "Icon Size"
+msgstr ""
+
+#: plugin.php:170
+msgid "Mini"
+msgstr ""
+
+#: plugin.php:171
+msgid "Small"
+msgstr ""
+
+#: plugin.php:172
+msgid "Large"
+msgstr ""
+
+#: plugin.php:176
+msgid ""
+"Enter the URL(s) for your various social profiles below. If you leave a "
+"profile URL field blank, it will not be used."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Social Profiles Widget"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.studiopress.com/plugins/social-profiles-widget"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin/widget allows you to insert social profile icons into your "
+"sidebar via a widget."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Nathan Rice"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.nathanrice.net/"
+msgstr ""
