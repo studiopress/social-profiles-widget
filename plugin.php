@@ -6,7 +6,7 @@
 	Author: Nathan Rice
 	Author URI: http://www.nathanrice.net/
 
-	Version: 1.2.2
+	Version: 1.2.3
 
 	License: GNU General Public License v2.0
 	License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -119,7 +119,7 @@ class Social_Profiles_Widget extends WP_Widget {
 
 			if ( ! empty( $instance['title'] ) )
 				echo $before_title . $instance['title'] . $after_title;
-				
+
 			$new_window = $instance['new_window'] ? 'target="_blank"' : '';
 
 			foreach ( $this->spw_fields_array( $instance ) as $key => $data ) {
@@ -150,7 +150,7 @@ class Social_Profiles_Widget extends WP_Widget {
 			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e('Title', 'social-profiles-widget'); ?>:</label><br />
 			<input id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" value="<?php echo $instance['title']; ?>" style="width:95%;" />
 		</p>
-		
+
 		<p><label><input id="<?php echo $this->get_field_id( 'new_window' ); ?>" type="checkbox" name="<?php echo $this->get_field_name( 'new_window' ); ?>" value="1" <?php checked( 1, $instance['new_window'] ); ?>/> <?php esc_html_e( 'Open links in new window?', 'social-profiles-widget' ); ?></label></p>
 
 		<p>
@@ -178,10 +178,11 @@ class Social_Profiles_Widget extends WP_Widget {
 <?php
 
 		foreach ( $this->spw_fields_array( $instance ) as $key => $data ) {
+			$url = isset( $instance[ $key ] ) ? $instance[ $key ] : '';
 			echo '<p>';
 			printf( '<img style="float: left; margin-right: 3px;" src="%s" title="%s" />', $data['img_widget'], $data['img_title'] );
 			printf( '<label for="%s"> %s:</label>', esc_attr( $this->get_field_id($key) ), esc_attr( $data['title'] ) );
-			printf( '<input id="%s" name="%s" value="%s" style="%s" />', esc_attr( $this->get_field_id($key) ), esc_attr( $this->get_field_name($key) ), esc_url( $instance[$key] ), 'width:65%;' );
+			printf( '<input id="%s" name="%s" value="%s" style="%s" />', esc_attr( $this->get_field_id($key) ), esc_attr( $this->get_field_name($key) ), esc_url( $url ), 'width:65%;' );
 			echo '</p>' . "\n";
 		}
 
