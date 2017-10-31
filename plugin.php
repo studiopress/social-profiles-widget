@@ -179,9 +179,9 @@ class Social_Profiles_Widget extends WP_Widget {
 
 		foreach ( $this->spw_fields_array( $instance ) as $key => $data ) {
 			$url = isset( $instance[ $key ] ) ? $instance[ $key ] : '';
-			echo '<p>';
+			echo '<p class="wp-clearfix">';
 			printf( '<img style="float: left; margin-right: 3px;" src="%s" title="%s" />', $data['img_widget'], $data['img_title'] );
-			printf( '<label for="%s"> %s:</label>', esc_attr( $this->get_field_id($key) ), esc_attr( $data['title'] ) );
+			printf( '<label for="%s"> %s:</label><br />', esc_attr( $this->get_field_id($key) ), esc_attr( $data['title'] ) );
 			printf( '<input id="%s" name="%s" value="%s" style="%s" />', esc_attr( $this->get_field_id($key) ), esc_attr( $this->get_field_name($key) ), esc_url( $url ), 'width:65%;' );
 			echo '</p>' . "\n";
 		}
