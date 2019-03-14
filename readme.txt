@@ -1,9 +1,9 @@
 === Plugin Name ===
-Contributors: nathanrice, studiopress
+Contributors: nathanrice, studiopress, marksabbath
 Tags: social media, social networking, social profiles
 Requires at least: 3.0
-Tested up to: 4.8.3
-Stable tag: 1.2.3
+Tested up to: 5.1
+Stable tag: 1.2.4
 
 This plugin/widget allows you to insert icon links to your social profiles in any widgetized area.
 
@@ -32,11 +32,26 @@ You can adjust that code to suite your needs, depending on your situation.
 
 == Changelog ==
 
-= 0.1-beta =
-* Pre-Release
+= 1.2.4 =
+* Introducing WordPress Coding Standards
+* Files restructured
 
-= 1.0 =
-* Added Linkedin Support
+= 1.2.3 =
+* Fixed undefined index warning
+* Fixed spacing in widget form
+
+= 1.2.2 =
+* PHP7 compatibility
+
+= 1.2.1 =
+* Add option to open links in a new window
+
+= 1.2 =
+* Added new 24x24 image size
+
+= 1.1.1 =
+* Added `alt` tags to image output
+* Changed plugin file from `total-social.php` to `plugin.php`
 
 = 1.1 =
 * Added support for more icons
@@ -44,19 +59,8 @@ You can adjust that code to suite your needs, depending on your situation.
 * Updated PHP techniques to be compatible with WordPress standards
 * Added groundwork for localization
 
-= 1.1.1 =
-* Added `alt` tags to image output
-* Changed plugin file from `total-social.php` to `plugin.php`
+= 1.0 =
+* Added Linkedin Support
 
-= 1.2 =
-* Added new 24x24 image size
-
-= 1.2.1 =
-* Add option to open links in a new window
-
-= 1.2.2 =
-* PHP7 compatibility
-
-= 1.2.3 =
-* Fixed undefined index warning
-* Fixed spacing in widget form
+= 0.1-beta =
+* Pre-Release
