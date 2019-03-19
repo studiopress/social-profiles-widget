@@ -1,14 +1,14 @@
-# Copyright (C) 2015 Nathan Rice
+# Copyright (C) 2019 Nathan Rice
 # This file is distributed under the GNU General Public License v2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: Social Profiles Widget 1.2.2\n"
+"Project-Id-Version: Social Profiles Widget 1.2.3\n"
 "Report-Msgid-Bugs-To: StudioPress <translations@studiopress.com>\n"
-"POT-Creation-Date: 2015-09-29 22:34:43+00:00\n"
+"POT-Creation-Date: 2019-03-19 18:13:07+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
 "Last-Translator: StudioPress <translations@studiopress.com>\n"
 "Language-Team: English <translations@studiopress.com>\n"
 "X-Generator: grunt-wp-i18n 0.4.4\n"
@@ -24,143 +24,143 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes\n"
 
-#: plugin.php:33
+#: includes/class-social-profiles-widget.php:19
 msgid "Displays Social Profile links as icons"
 msgstr ""
 
-#: plugin.php:34
+#: includes/class-social-profiles-widget.php:21
 msgid "Social Profiles"
 msgstr ""
 
-#: plugin.php:45
+#: includes/class-social-profiles-widget.php:42
 msgid "RSS/Feedburner URL"
 msgstr ""
 
-#: plugin.php:48
+#: includes/class-social-profiles-widget.php:45
 msgid "RSS"
 msgstr ""
 
-#: plugin.php:51
+#: includes/class-social-profiles-widget.php:48
 msgid "Twitter URL"
 msgstr ""
 
-#: plugin.php:54
+#: includes/class-social-profiles-widget.php:51
 msgid "Twitter"
 msgstr ""
 
-#: plugin.php:57
+#: includes/class-social-profiles-widget.php:54
 msgid "Facebook URL"
 msgstr ""
 
-#: plugin.php:60
+#: includes/class-social-profiles-widget.php:57
 msgid "Facebook"
 msgstr ""
 
-#: plugin.php:63
+#: includes/class-social-profiles-widget.php:60
 msgid "Linkedin URL"
 msgstr ""
 
-#: plugin.php:66
+#: includes/class-social-profiles-widget.php:63
 msgid "Linkedin"
 msgstr ""
 
-#: plugin.php:69
+#: includes/class-social-profiles-widget.php:66
 msgid "YouTube URL"
 msgstr ""
 
-#: plugin.php:72
+#: includes/class-social-profiles-widget.php:69
 msgid "Youtube"
 msgstr ""
 
-#: plugin.php:75
+#: includes/class-social-profiles-widget.php:72
 msgid "Flickr URL"
 msgstr ""
 
-#: plugin.php:78
+#: includes/class-social-profiles-widget.php:75
 msgid "Flickr"
 msgstr ""
 
-#: plugin.php:81
+#: includes/class-social-profiles-widget.php:78
 msgid "Delicious URL"
 msgstr ""
 
-#: plugin.php:84
+#: includes/class-social-profiles-widget.php:81
 msgid "Delicious"
 msgstr ""
 
-#: plugin.php:87
+#: includes/class-social-profiles-widget.php:84
 msgid "StumbleUpon URL"
 msgstr ""
 
-#: plugin.php:90
+#: includes/class-social-profiles-widget.php:87
 msgid "StumbleUpon"
 msgstr ""
 
-#: plugin.php:93
+#: includes/class-social-profiles-widget.php:90
 msgid "Digg URL"
 msgstr ""
 
-#: plugin.php:96
+#: includes/class-social-profiles-widget.php:93
 msgid "Digg"
 msgstr ""
 
-#: plugin.php:99
+#: includes/class-social-profiles-widget.php:96
 msgid "MySpace URL"
 msgstr ""
 
-#: plugin.php:102
+#: includes/class-social-profiles-widget.php:99
 msgid "MySpace"
 msgstr ""
 
-#: plugin.php:150
+#: includes/class-social-profiles-widget.php:174
 msgid "Title"
 msgstr ""
 
-#: plugin.php:154
+#: includes/class-social-profiles-widget.php:178
 msgid "Open links in new window?"
 msgstr ""
 
-#: plugin.php:157
+#: includes/class-social-profiles-widget.php:181
 msgid "Icon Set"
 msgstr ""
 
-#: plugin.php:159
+#: includes/class-social-profiles-widget.php:183
 msgid "Default"
 msgstr ""
 
-#: plugin.php:160
+#: includes/class-social-profiles-widget.php:184
 msgid "Circles"
 msgstr ""
 
-#: plugin.php:161
+#: includes/class-social-profiles-widget.php:185
 msgid "Denim"
 msgstr ""
 
-#: plugin.php:162
+#: includes/class-social-profiles-widget.php:186
 msgid "Inside"
 msgstr ""
 
-#: plugin.php:163
+#: includes/class-social-profiles-widget.php:187
 msgid "Sketch"
 msgstr ""
 
-#: plugin.php:168
+#: includes/class-social-profiles-widget.php:192
 msgid "Icon Size"
 msgstr ""
 
-#: plugin.php:170
+#: includes/class-social-profiles-widget.php:194
 msgid "Mini"
 msgstr ""
 
-#: plugin.php:171
+#: includes/class-social-profiles-widget.php:195
 msgid "Small"
 msgstr ""
 
-#: plugin.php:172
+#: includes/class-social-profiles-widget.php:196
 msgid "Large"
 msgstr ""
 
-#: plugin.php:176
+#: includes/class-social-profiles-widget.php:200
 msgid ""
 "Enter the URL(s) for your various social profiles below. If you leave a "
 "profile URL field blank, it will not be used."
@@ -171,7 +171,7 @@ msgid "Social Profiles Widget"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
-msgid "http://www.studiopress.com/plugins/social-profiles-widget"
+msgid "https://wordpress.org/plugins/social-profiles-widget"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -185,5 +185,5 @@ msgid "Nathan Rice"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://www.nathanrice.net/"
+msgid "https://www.nathanrice.net/"
 msgstr ""
