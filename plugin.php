@@ -30,5 +30,5 @@ add_action( 'widgets_init', 'social_profiles_widget_register' );
  * Register widget.
  */
 function social_profiles_widget_register() {
-		register_widget( 'Social_Profiles_Widget' );
+	register_widget( 'Social_Profiles_Widget' );
 }
