@@ -7,10 +7,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-checktextdomain": "^0.1.1",
-    "grunt-wp-i18n": "^1.0.3",
-    "load-grunt-tasks": "^3.3.0"
+    "node-wp-i18n": "^1.2.3"
+  },
+  "scripts": {
+    "makepot": "wpi18n makepot --exclude=vendor,node_modules",
+    "addtextdomain": "wpi18n addtextdomain --exclude=vendor,node_modules"
   },
   "plugin": {
     "name": "Social Profiles Widget",
