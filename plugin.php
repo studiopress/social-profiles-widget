@@ -6,7 +6,7 @@
  * Author: Nathan Rice
  * Author URI: https://www.nathanrice.net/
 
- * Version: 1.2.4
+ * Version: 1.2.5
 
  * License: GNU General Public License v2.0
  * License URI: https://www.opensource.org/licenses/gpl-license.php

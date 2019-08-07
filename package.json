@@ -19,7 +19,7 @@
     "description": "This plugin/widget allows you to insert social profile icons into your sidebar via a widget.",
     "author": "Nathan Rice",
     "authoruri": "http://www.nathanrice.net/",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "license": "GPL-2.0+",
     "licenseuri": "http://www.gnu.org/licenses/gpl-2.0.html",
     "textdomain": "social-profiles-widget"
