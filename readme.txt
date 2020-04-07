@@ -2,7 +2,7 @@
 Contributors: nathanrice, studiopress, marksabbath
 Tags: social media, social networking, social profiles
 Requires at least: 3.0
-Tested up to: 5.2.2
+Tested up to: 5.4
 Stable tag: 1.2.5
 
 This plugin/widget allows you to insert icon links to your social profiles in any widgetized area.
