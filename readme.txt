@@ -7,6 +7,11 @@ Stable tag: 1.2.5
 
 This plugin/widget allows you to insert icon links to your social profiles in any widgetized area.
 
+== DEPRECATION NOTICE ==
+This plugin is now deprecated and will no longer receive feature updates.
+
+See the <a href="https://wordpress.org/plugins/tags/social-profiles/">Social Profiles tag</a> for alternatives.
+
 == Description ==
 
 By simply dragging this widget into your sidebar or any widgetized area, you can easily place icon links to your various social profiles like twitter, facebook, flickr, etc.
